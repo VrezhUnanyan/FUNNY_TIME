@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842E76B21E0C2F770004F891 /* AddImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E76B11E0C2F770004F891 /* AddImageView.m */; };
+		8431DB3A20265715005C9248 /* last.png in Resources */ = {isa = PBXBuildFile; fileRef = 8431DB3920265715005C9248 /* last.png */; };
+		843F540B1E1189F200488E52 /* SelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F540A1E1189F200488E52 /* SelectImageView.m */; };
+		84495D131E1537ED00CFC7DF /* ChangeableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D121E1537ED00CFC7DF /* ChangeableImageView.m */; };
+		84495D1A1E1D164B00CFC7DF /* AlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D191E1D164B00CFC7DF /* AlphaSlider.m */; };
+		84495D221E23D6F100CFC7DF /* UIImage+ImageEditingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D211E23D6F100CFC7DF /* UIImage+ImageEditingMethods.m */; };
+		84495D251E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D241E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.m */; };
+		84495D281E28056100CFC7DF /* BackgroundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D271E28056100CFC7DF /* BackgroundImageView.m */; };
+		84495D2B1E280CA200CFC7DF /* UIView+ViewMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D2A1E280CA200CFC7DF /* UIView+ViewMethods.m */; };
+		84495D2E1E28E66500CFC7DF /* ColorsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84495D2D1E28E66500CFC7DF /* ColorsView.m */; };
+		84523CE71DFC6F07004FC350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523CE61DFC6F07004FC350 /* main.m */; };
+		84523CEA1DFC6F07004FC350 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523CE91DFC6F07004FC350 /* AppDelegate.m */; };
+		84523CF01DFC6F07004FC350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84523CEE1DFC6F07004FC350 /* Main.storyboard */; };
+		84523CF31DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84523CF11DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodeld */; };
+		84523CF51DFC6F07004FC350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84523CF41DFC6F07004FC350 /* Assets.xcassets */; };
+		84523CF81DFC6F07004FC350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84523CF61DFC6F07004FC350 /* LaunchScreen.storyboard */; };
+		84523D031DFC6F08004FC350 /* ImageRotateAndZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523D021DFC6F08004FC350 /* ImageRotateAndZoomTests.m */; };
+		84523D0E1DFC6F08004FC350 /* ImageRotateAndZoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523D0D1DFC6F08004FC350 /* ImageRotateAndZoomUITests.m */; };
+		84523D1D1DFC732B004FC350 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84523D1C1DFC732B004FC350 /* image.jpg */; };
+		845633F31E0B0B70005F7401 /* ViewController+constraintsInViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 845633F21E0B0B70005F7401 /* ViewController+constraintsInViews.m */; };
+		845BF11D2069777A0007D77A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BF11C206977780007D77A /* Bolts.framework */; };
+		845BF11F206977A70007D77A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BF11E206977A50007D77A /* FBSDKLoginKit.framework */; };
+		845BF121206977AF0007D77A /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BF120206977AE0007D77A /* FBSDKShareKit.framework */; };
+		845BF123206977B90007D77A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BF122206977B90007D77A /* FBSDKCoreKit.framework */; };
+		845BF127206982E50007D77A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BF125206982E50007D77A /* SWRevealViewController.m */; };
+		846F3BEC1E02BEEF00AA5887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523CEC1DFC6F07004FC350 /* ViewController.m */; };
+		84CC31ED1DFC7CB1005A8B74 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC31EC1DFC7CB1005A8B74 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84523CFF1DFC6F08004FC350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84523CDA1DFC6F07004FC350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84523CE11DFC6F07004FC350;
+			remoteInfo = ImageRotateAndZoom;
+		};
+		84523D0A1DFC6F08004FC350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84523CDA1DFC6F07004FC350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84523CE11DFC6F07004FC350;
+			remoteInfo = ImageRotateAndZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842E76B01E0C2F770004F891 /* AddImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageView.h; sourceTree = "<group>"; };
+		842E76B11E0C2F770004F891 /* AddImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageView.m; sourceTree = "<group>"; };
+		8431DB3920265715005C9248 /* last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last.png; sourceTree = "<group>"; };
+		843F54091E1189F200488E52 /* SelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageView.h; sourceTree = "<group>"; };
+		843F540A1E1189F200488E52 /* SelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageView.m; sourceTree = "<group>"; };
+		84495D121E1537ED00CFC7DF /* ChangeableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeableImageView.m; sourceTree = "<group>"; };
+		84495D141E15383600CFC7DF /* ChangeableImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeableImageView.h; sourceTree = "<group>"; };
+		84495D181E1D164B00CFC7DF /* AlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaSlider.h; sourceTree = "<group>"; };
+		84495D191E1D164B00CFC7DF /* AlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaSlider.m; sourceTree = "<group>"; };
+		84495D201E23D6F100CFC7DF /* UIImage+ImageEditingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEditingMethods.h"; sourceTree = "<group>"; };
+		84495D211E23D6F100CFC7DF /* UIImage+ImageEditingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEditingMethods.m"; sourceTree = "<group>"; };
+		84495D231E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageViewFrameManager.h"; sourceTree = "<group>"; };
+		84495D241E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageViewFrameManager.m"; sourceTree = "<group>"; };
+		84495D261E28056100CFC7DF /* BackgroundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundImageView.h; sourceTree = "<group>"; };
+		84495D271E28056100CFC7DF /* BackgroundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundImageView.m; sourceTree = "<group>"; };
+		84495D291E280CA200CFC7DF /* UIView+ViewMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewMethods.h"; sourceTree = "<group>"; };
+		84495D2A1E280CA200CFC7DF /* UIView+ViewMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewMethods.m"; sourceTree = "<group>"; };
+		84495D2C1E28E66500CFC7DF /* ColorsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsView.h; sourceTree = "<group>"; };
+		84495D2D1E28E66500CFC7DF /* ColorsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsView.m; sourceTree = "<group>"; };
+		84523CE21DFC6F07004FC350 /* ImageRotateAndZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotateAndZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84523CE61DFC6F07004FC350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84523CE81DFC6F07004FC350 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84523CE91DFC6F07004FC350 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84523CEB1DFC6F07004FC350 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84523CEC1DFC6F07004FC350 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84523CEF1DFC6F07004FC350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84523CF21DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageRotateAndZoom.xcdatamodel; sourceTree = "<group>"; };
+		84523CF41DFC6F07004FC350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84523CF71DFC6F07004FC350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84523CF91DFC6F07004FC350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84523CFE1DFC6F08004FC350 /* ImageRotateAndZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRotateAndZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84523D021DFC6F08004FC350 /* ImageRotateAndZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateAndZoomTests.m; sourceTree = "<group>"; };
+		84523D041DFC6F08004FC350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84523D091DFC6F08004FC350 /* ImageRotateAndZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRotateAndZoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84523D0D1DFC6F08004FC350 /* ImageRotateAndZoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateAndZoomUITests.m; sourceTree = "<group>"; };
+		84523D0F1DFC6F08004FC350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84523D1C1DFC732B004FC350 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		845633F11E0B0B70005F7401 /* ViewController+constraintsInViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+constraintsInViews.h"; sourceTree = "<group>"; };
+		845633F21E0B0B70005F7401 /* ViewController+constraintsInViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+constraintsInViews.m"; sourceTree = "<group>"; };
+		845BF11C206977780007D77A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = SOURCE_ROOT; };
+		845BF11E206977A50007D77A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = SOURCE_ROOT; };
+		845BF120206977AE0007D77A /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = SOURCE_ROOT; };
+		845BF122206977B90007D77A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = SOURCE_ROOT; };
+		845BF125206982E50007D77A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		845BF126206982E50007D77A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84CC31EC1DFC7CB1005A8B74 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84523CDF1DFC6F07004FC350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845BF11F206977A70007D77A /* FBSDKLoginKit.framework in Frameworks */,
+				845BF123206977B90007D77A /* FBSDKCoreKit.framework in Frameworks */,
+				845BF11D2069777A0007D77A /* Bolts.framework in Frameworks */,
+				845BF121206977AF0007D77A /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523CFB1DFC6F08004FC350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523D061DFC6F08004FC350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84523CD91DFC6F07004FC350 = {
+			isa = PBXGroup;
+			children = (
+				845BF119206976D20007D77A /* Frameworks */,
+				84523CE41DFC6F07004FC350 /* ImageRotateAndZoom */,
+				84523D011DFC6F08004FC350 /* ImageRotateAndZoomTests */,
+				84523D0C1DFC6F08004FC350 /* ImageRotateAndZoomUITests */,
+				84523CE31DFC6F07004FC350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84523CE31DFC6F07004FC350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84523CE21DFC6F07004FC350 /* ImageRotateAndZoom.app */,
+				84523CFE1DFC6F08004FC350 /* ImageRotateAndZoomTests.xctest */,
+				84523D091DFC6F08004FC350 /* ImageRotateAndZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84523CE41DFC6F07004FC350 /* ImageRotateAndZoom */ = {
+			isa = PBXGroup;
+			children = (
+				845BF124206982870007D77A /* SWRevealViewController */,
+				84523CE81DFC6F07004FC350 /* AppDelegate.h */,
+				84523CE91DFC6F07004FC350 /* AppDelegate.m */,
+				84523CEB1DFC6F07004FC350 /* ViewController.h */,
+				84523CEC1DFC6F07004FC350 /* ViewController.m */,
+				84495D141E15383600CFC7DF /* ChangeableImageView.h */,
+				84495D121E1537ED00CFC7DF /* ChangeableImageView.m */,
+				842E76B01E0C2F770004F891 /* AddImageView.h */,
+				842E76B11E0C2F770004F891 /* AddImageView.m */,
+				843F54091E1189F200488E52 /* SelectImageView.h */,
+				843F540A1E1189F200488E52 /* SelectImageView.m */,
+				84495D261E28056100CFC7DF /* BackgroundImageView.h */,
+				84495D271E28056100CFC7DF /* BackgroundImageView.m */,
+				84495D2C1E28E66500CFC7DF /* ColorsView.h */,
+				84495D2D1E28E66500CFC7DF /* ColorsView.m */,
+				84495D181E1D164B00CFC7DF /* AlphaSlider.h */,
+				84495D191E1D164B00CFC7DF /* AlphaSlider.m */,
+				84495D201E23D6F100CFC7DF /* UIImage+ImageEditingMethods.h */,
+				84495D211E23D6F100CFC7DF /* UIImage+ImageEditingMethods.m */,
+				84495D231E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.h */,
+				84495D241E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.m */,
+				84495D291E280CA200CFC7DF /* UIView+ViewMethods.h */,
+				84495D2A1E280CA200CFC7DF /* UIView+ViewMethods.m */,
+				84523CF41DFC6F07004FC350 /* Assets.xcassets */,
+				84523CEE1DFC6F07004FC350 /* Main.storyboard */,
+				84523CF61DFC6F07004FC350 /* LaunchScreen.storyboard */,
+				84523CF91DFC6F07004FC350 /* Info.plist */,
+				84523CF11DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodeld */,
+				84523D1B1DFC732B004FC350 /* images */,
+				84523CE51DFC6F07004FC350 /* Supporting Files */,
+				845633F11E0B0B70005F7401 /* ViewController+constraintsInViews.h */,
+				845633F21E0B0B70005F7401 /* ViewController+constraintsInViews.m */,
+			);
+			path = ImageRotateAndZoom;
+			sourceTree = "<group>";
+		};
+		84523CE51DFC6F07004FC350 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84523CE61DFC6F07004FC350 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84523D011DFC6F08004FC350 /* ImageRotateAndZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				84523D021DFC6F08004FC350 /* ImageRotateAndZoomTests.m */,
+				84523D041DFC6F08004FC350 /* Info.plist */,
+			);
+			path = ImageRotateAndZoomTests;
+			sourceTree = "<group>";
+		};
+		84523D0C1DFC6F08004FC350 /* ImageRotateAndZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84523D0D1DFC6F08004FC350 /* ImageRotateAndZoomUITests.m */,
+				84523D0F1DFC6F08004FC350 /* Info.plist */,
+			);
+			path = ImageRotateAndZoomUITests;
+			sourceTree = "<group>";
+		};
+		84523D1B1DFC732B004FC350 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84CC31EC1DFC7CB1005A8B74 /* icon.png */,
+				8431DB3920265715005C9248 /* last.png */,
+				84523D1C1DFC732B004FC350 /* image.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		845BF119206976D20007D77A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845BF122206977B90007D77A /* FBSDKCoreKit.framework */,
+				845BF120206977AE0007D77A /* FBSDKShareKit.framework */,
+				845BF11E206977A50007D77A /* FBSDKLoginKit.framework */,
+				845BF11C206977780007D77A /* Bolts.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		845BF124206982870007D77A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				845BF126206982E50007D77A /* SWRevealViewController.h */,
+				845BF125206982E50007D77A /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84523CE11DFC6F07004FC350 /* ImageRotateAndZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84523D121DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoom" */;
+			buildPhases = (
+				84523CDE1DFC6F07004FC350 /* Sources */,
+				84523CDF1DFC6F07004FC350 /* Frameworks */,
+				84523CE01DFC6F07004FC350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRotateAndZoom;
+			productName = ImageRotateAndZoom;
+			productReference = 84523CE21DFC6F07004FC350 /* ImageRotateAndZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84523CFD1DFC6F08004FC350 /* ImageRotateAndZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84523D151DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoomTests" */;
+			buildPhases = (
+				84523CFA1DFC6F08004FC350 /* Sources */,
+				84523CFB1DFC6F08004FC350 /* Frameworks */,
+				84523CFC1DFC6F08004FC350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84523D001DFC6F08004FC350 /* PBXTargetDependency */,
+			);
+			name = ImageRotateAndZoomTests;
+			productName = ImageRotateAndZoomTests;
+			productReference = 84523CFE1DFC6F08004FC350 /* ImageRotateAndZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84523D081DFC6F08004FC350 /* ImageRotateAndZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84523D181DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoomUITests" */;
+			buildPhases = (
+				84523D051DFC6F08004FC350 /* Sources */,
+				84523D061DFC6F08004FC350 /* Frameworks */,
+				84523D071DFC6F08004FC350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84523D0B1DFC6F08004FC350 /* PBXTargetDependency */,
+			);
+			name = ImageRotateAndZoomUITests;
+			productName = ImageRotateAndZoomUITests;
+			productReference = 84523D091DFC6F08004FC350 /* ImageRotateAndZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84523CDA1DFC6F07004FC350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84523CE11DFC6F07004FC350 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					84523CFD1DFC6F08004FC350 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 84523CE11DFC6F07004FC350;
+					};
+					84523D081DFC6F08004FC350 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 84523CE11DFC6F07004FC350;
+					};
+				};
+			};
+			buildConfigurationList = 84523CDD1DFC6F07004FC350 /* Build configuration list for PBXProject "ImageRotateAndZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84523CD91DFC6F07004FC350;
+			productRefGroup = 84523CE31DFC6F07004FC350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84523CE11DFC6F07004FC350 /* ImageRotateAndZoom */,
+				84523CFD1DFC6F08004FC350 /* ImageRotateAndZoomTests */,
+				84523D081DFC6F08004FC350 /* ImageRotateAndZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84523CE01DFC6F07004FC350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84523CF81DFC6F07004FC350 /* LaunchScreen.storyboard in Resources */,
+				84CC31ED1DFC7CB1005A8B74 /* icon.png in Resources */,
+				84523CF51DFC6F07004FC350 /* Assets.xcassets in Resources */,
+				84523CF01DFC6F07004FC350 /* Main.storyboard in Resources */,
+				84523D1D1DFC732B004FC350 /* image.jpg in Resources */,
+				8431DB3A20265715005C9248 /* last.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523CFC1DFC6F08004FC350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523D071DFC6F08004FC350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84523CDE1DFC6F07004FC350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84495D2E1E28E66500CFC7DF /* ColorsView.m in Sources */,
+				84495D131E1537ED00CFC7DF /* ChangeableImageView.m in Sources */,
+				845BF127206982E50007D77A /* SWRevealViewController.m in Sources */,
+				84523CF31DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodeld in Sources */,
+				845633F31E0B0B70005F7401 /* ViewController+constraintsInViews.m in Sources */,
+				842E76B21E0C2F770004F891 /* AddImageView.m in Sources */,
+				84495D2B1E280CA200CFC7DF /* UIView+ViewMethods.m in Sources */,
+				84495D1A1E1D164B00CFC7DF /* AlphaSlider.m in Sources */,
+				843F540B1E1189F200488E52 /* SelectImageView.m in Sources */,
+				84495D281E28056100CFC7DF /* BackgroundImageView.m in Sources */,
+				84523CEA1DFC6F07004FC350 /* AppDelegate.m in Sources */,
+				84495D221E23D6F100CFC7DF /* UIImage+ImageEditingMethods.m in Sources */,
+				846F3BEC1E02BEEF00AA5887 /* ViewController.m in Sources */,
+				84523CE71DFC6F07004FC350 /* main.m in Sources */,
+				84495D251E23F41000CFC7DF /* UIImageView+ImageViewFrameManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523CFA1DFC6F08004FC350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84523D031DFC6F08004FC350 /* ImageRotateAndZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84523D051DFC6F08004FC350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84523D0E1DFC6F08004FC350 /* ImageRotateAndZoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84523D001DFC6F08004FC350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84523CE11DFC6F07004FC350 /* ImageRotateAndZoom */;
+			targetProxy = 84523CFF1DFC6F08004FC350 /* PBXContainerItemProxy */;
+		};
+		84523D0B1DFC6F08004FC350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84523CE11DFC6F07004FC350 /* ImageRotateAndZoom */;
+			targetProxy = 84523D0A1DFC6F08004FC350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84523CEE1DFC6F07004FC350 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84523CEF1DFC6F07004FC350 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84523CF61DFC6F07004FC350 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84523CF71DFC6F07004FC350 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84523D101DFC6F08004FC350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84523D111DFC6F08004FC350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84523D131DFC6F08004FC350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = ImageRotateAndZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84523D141DFC6F08004FC350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = ImageRotateAndZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84523D161DFC6F08004FC350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageRotateAndZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRotateAndZoom.app/ImageRotateAndZoom";
+			};
+			name = Debug;
+		};
+		84523D171DFC6F08004FC350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageRotateAndZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageRotateAndZoom.app/ImageRotateAndZoom";
+			};
+			name = Release;
+		};
+		84523D191DFC6F08004FC350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageRotateAndZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageRotateAndZoom;
+			};
+			name = Debug;
+		};
+		84523D1A1DFC6F08004FC350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImageRotateAndZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bfg.ImageRotateAndZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImageRotateAndZoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84523CDD1DFC6F07004FC350 /* Build configuration list for PBXProject "ImageRotateAndZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84523D101DFC6F08004FC350 /* Debug */,
+				84523D111DFC6F08004FC350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84523D121DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84523D131DFC6F08004FC350 /* Debug */,
+				84523D141DFC6F08004FC350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84523D151DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84523D161DFC6F08004FC350 /* Debug */,
+				84523D171DFC6F08004FC350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84523D181DFC6F08004FC350 /* Build configuration list for PBXNativeTarget "ImageRotateAndZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84523D191DFC6F08004FC350 /* Debug */,
+				84523D1A1DFC6F08004FC350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84523CF11DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84523CF21DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodel */,
+			);
+			currentVersion = 84523CF21DFC6F07004FC350 /* ImageRotateAndZoom.xcdatamodel */;
+			path = ImageRotateAndZoom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84523CDA1DFC6F07004FC350 /* Project object */;
+}
