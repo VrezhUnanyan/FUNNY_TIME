@@ -18,6 +18,7 @@
 #import "ColorsView.h"
 #import "SWRevealViewController.h"
 
+
 @interface ViewController ()<UIScrollViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate>
 {
     BOOL isBottomScrollViewScrolling;
@@ -355,6 +356,8 @@
             [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
             [button setTag: 0];
         } else {
+            [_saveImageButton setHidden: YES];
+            [_lastImageButton setHidden: YES];
             [button setUserInteractionEnabled: YES];
             [button setTitleColor: [UIColor colorWithRed:128 green:0 blue:128 alpha:1]
                          forState: UIControlStateNormal];

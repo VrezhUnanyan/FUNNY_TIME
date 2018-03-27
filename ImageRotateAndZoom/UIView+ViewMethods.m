@@ -14,8 +14,8 @@
 //notification function
 - (void)removeFromSuperview : (NSNotification *)notification
 {
-    /*[[NSNotificationCenter  defaultCenter] postNotificationName: @"romoveSubviews"
-                                                         object: self];*/
+    [[NSNotificationCenter  defaultCenter] postNotificationName: @"romoveSubviews"
+                                                         object: self];
     [self removeFromSuperview];
 }
 

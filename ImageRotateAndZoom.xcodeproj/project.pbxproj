@@ -33,6 +33,7 @@
 		845BF123206977B90007D77A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845BF122206977B90007D77A /* FBSDKCoreKit.framework */; };
 		845BF127206982E50007D77A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BF125206982E50007D77A /* SWRevealViewController.m */; };
 		846F3BEC1E02BEEF00AA5887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523CEC1DFC6F07004FC350 /* ViewController.m */; };
+		84792D97206AE1C70085926E /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84792D96206AE1C70085926E /* MenuTableViewController.m */; };
 		84CC31ED1DFC7CB1005A8B74 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC31EC1DFC7CB1005A8B74 /* icon.png */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,8 @@
 		845BF122206977B90007D77A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = SOURCE_ROOT; };
 		845BF125206982E50007D77A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		845BF126206982E50007D77A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84792D95206AE1C70085926E /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		84792D96206AE1C70085926E /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		84CC31EC1DFC7CB1005A8B74 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +163,8 @@
 				84523CE91DFC6F07004FC350 /* AppDelegate.m */,
 				84523CEB1DFC6F07004FC350 /* ViewController.h */,
 				84523CEC1DFC6F07004FC350 /* ViewController.m */,
+				84792D95206AE1C70085926E /* MenuTableViewController.h */,
+				84792D96206AE1C70085926E /* MenuTableViewController.m */,
 				84495D141E15383600CFC7DF /* ChangeableImageView.h */,
 				84495D121E1537ED00CFC7DF /* ChangeableImageView.m */,
 				842E76B01E0C2F770004F891 /* AddImageView.h */,
@@ -380,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84792D97206AE1C70085926E /* MenuTableViewController.m in Sources */,
 				84495D2E1E28E66500CFC7DF /* ColorsView.m in Sources */,
 				84495D131E1537ED00CFC7DF /* ChangeableImageView.m in Sources */,
 				845BF127206982E50007D77A /* SWRevealViewController.m in Sources */,
