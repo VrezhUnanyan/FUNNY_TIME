@@ -313,23 +313,54 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pPs-OT-ESg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xy7-36-FrM">
-                            <size key="itemSize" width="50" height="50"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="itemSize" width="100" height="100"/>
+                            <size key="headerReferenceSize" width="50" height="50"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="albumImageCell" id="iI8-2o-Rpy">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="albumImageCell" id="iI8-2o-Rpy" customClass="AlbumCollectionViewCell">
+                                <rect key="frame" x="0.0" y="50" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="jaF-kn-s3N">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="jaF-kn-s3N" firstAttribute="centerX" secondItem="iI8-2o-Rpy" secondAttribute="centerX" id="AtU-9O-mcJ"/>
+                                    <constraint firstItem="jaF-kn-s3N" firstAttribute="width" secondItem="iI8-2o-Rpy" secondAttribute="width" id="GMh-sP-H1Z"/>
+                                    <constraint firstItem="jaF-kn-s3N" firstAttribute="centerY" secondItem="iI8-2o-Rpy" secondAttribute="centerY" id="RyC-WI-dvd"/>
+                                    <constraint firstItem="jaF-kn-s3N" firstAttribute="height" secondItem="iI8-2o-Rpy" secondAttribute="height" id="ZPz-Am-hnE"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="image" destination="jaF-kn-s3N" id="H76-pP-MyU"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tcG-sO-qO1">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWW-O5-5hW">
+                                    <rect key="frame" x="0.0" y="0.5" width="375" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="kWW-O5-5hW" firstAttribute="centerX" secondItem="tcG-sO-qO1" secondAttribute="centerX" id="2ia-vD-tNl"/>
+                                <constraint firstItem="kWW-O5-5hW" firstAttribute="height" secondItem="tcG-sO-qO1" secondAttribute="height" id="NwO-yC-aYw"/>
+                                <constraint firstItem="kWW-O5-5hW" firstAttribute="width" secondItem="tcG-sO-qO1" secondAttribute="width" id="Opa-6G-HQo"/>
+                                <constraint firstItem="kWW-O5-5hW" firstAttribute="centerY" secondItem="tcG-sO-qO1" secondAttribute="centerY" id="e6E-hh-ZYz"/>
+                            </constraints>
+                        </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="hB6-hY-4kL" id="f46-M1-nT4"/>
                             <outlet property="delegate" destination="hB6-hY-4kL" id="vKo-Ng-0Hf"/>
@@ -338,11 +369,12 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vAF-W3-EIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1148" y="337"/>
+            <point key="canvasLocation" x="1148" y="336.88155922038982"/>
         </scene>
     </scenes>
     <resources>
         <image name="cancelChange" width="30" height="30"/>
+        <image name="icon.png" width="1028" height="903"/>
         <image name="last.png" width="50" height="50"/>
         <image name="save" width="30" height="30"/>
     </resources>

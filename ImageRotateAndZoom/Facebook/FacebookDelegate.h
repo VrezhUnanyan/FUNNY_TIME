@@ -12,5 +12,7 @@
 @protocol FacebookDelegate <NSObject>
 @optional
 - (void)setAlbumIDs: (NSArray *)IDs albumNames: (NSArray *)names;
-- (void)setImagesWithAlbumID: (UIImage *)image;
+//- (void)setImageIDsWithAlbumID: (NSArray *)imagesIDs  albumID: (NSString *)albumID;
+//- (void)setImages: (UIImage *)image withimageID: (NSString *)imageID;
+- (void)reloadData;
 @end

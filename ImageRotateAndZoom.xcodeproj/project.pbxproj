@@ -34,6 +34,7 @@
 		845BF127206982E50007D77A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BF125206982E50007D77A /* SWRevealViewController.m */; };
 		846F3BEC1E02BEEF00AA5887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84523CEC1DFC6F07004FC350 /* ViewController.m */; };
 		84792D97206AE1C70085926E /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84792D96206AE1C70085926E /* MenuTableViewController.m */; };
+		848052D9207D5A5E0050FB16 /* AlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848052D8207D5A5E0050FB16 /* AlbumCollectionViewCell.m */; };
 		84CC31ED1DFC7CB1005A8B74 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC31EC1DFC7CB1005A8B74 /* icon.png */; };
 		84F788F9206C312D0016D247 /* AlbumCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F788F8206C312D0016D247 /* AlbumCollectionViewController.m */; };
 		84F788FF206C3CEA0016D247 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F788FE206C3CEA0016D247 /* Facebook.m */; };
@@ -104,6 +105,8 @@
 		845BF126206982E50007D77A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		84792D95206AE1C70085926E /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		84792D96206AE1C70085926E /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		848052D7207D5A5E0050FB16 /* AlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		848052D8207D5A5E0050FB16 /* AlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumCollectionViewCell.m; sourceTree = "<group>"; };
 		84CC31EC1DFC7CB1005A8B74 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		84F788F7206C312D0016D247 /* AlbumCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumCollectionViewController.h; sourceTree = "<group>"; };
 		84F788F8206C312D0016D247 /* AlbumCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumCollectionViewController.m; sourceTree = "<group>"; };
@@ -165,6 +168,7 @@
 		84523CE41DFC6F07004FC350 /* ImageRotateAndZoom */ = {
 			isa = PBXGroup;
 			children = (
+				848052D6207D59F70050FB16 /* Views */,
 				84F788FC206C3CB50016D247 /* Facebook */,
 				845BF124206982870007D77A /* SWRevealViewController */,
 				84523CE81DFC6F07004FC350 /* AppDelegate.h */,
@@ -260,6 +264,15 @@
 				845BF125206982E50007D77A /* SWRevealViewController.m */,
 			);
 			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		848052D6207D59F70050FB16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848052D7207D5A5E0050FB16 /* AlbumCollectionViewCell.h */,
+				848052D8207D5A5E0050FB16 /* AlbumCollectionViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		84F788FC206C3CB50016D247 /* Facebook */ = {
@@ -416,6 +429,7 @@
 				84495D2B1E280CA200CFC7DF /* UIView+ViewMethods.m in Sources */,
 				84495D1A1E1D164B00CFC7DF /* AlphaSlider.m in Sources */,
 				84F788F9206C312D0016D247 /* AlbumCollectionViewController.m in Sources */,
+				848052D9207D5A5E0050FB16 /* AlbumCollectionViewCell.m in Sources */,
 				843F540B1E1189F200488E52 /* SelectImageView.m in Sources */,
 				84495D281E28056100CFC7DF /* BackgroundImageView.m in Sources */,
 				84523CEA1DFC6F07004FC350 /* AppDelegate.m in Sources */,

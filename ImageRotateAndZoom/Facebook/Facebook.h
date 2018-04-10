@@ -12,5 +12,6 @@
 @interface Facebook : NSObject
 @property (nonatomic, weak)id <FacebookDelegate> delegate;
 - (void) getAlbumsRequest;
-- (void) getImageWithAlbumID: (NSString *)albumID;
+- (void) getImagesWithAlbum: (NSDictionary *)album;
+- (void) getImagesWithImageID:(NSString *)imageID image:(NSDictionary *) image;
 @end
